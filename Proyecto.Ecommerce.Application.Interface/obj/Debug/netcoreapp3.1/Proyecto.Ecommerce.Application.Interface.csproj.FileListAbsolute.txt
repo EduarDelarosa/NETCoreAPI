@@ -1,0 +1,15 @@
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.deps.json
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.csproj.AssemblyReference.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.AssemblyInfoInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.AssemblyInfo.cs
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.csproj.CopyComplete
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Application.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.Interface.pdb

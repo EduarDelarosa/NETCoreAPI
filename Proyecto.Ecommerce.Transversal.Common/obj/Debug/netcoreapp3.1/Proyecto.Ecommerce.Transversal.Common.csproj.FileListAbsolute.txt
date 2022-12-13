@@ -1,0 +1,10 @@
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.deps.json
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.csproj.AssemblyReference.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.AssemblyInfoInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.AssemblyInfo.cs
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.csproj.CoreCompileInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Transversal.Common\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Common.pdb

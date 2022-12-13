@@ -1,0 +1,13 @@
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.deps.json
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Entity.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Entity.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.csproj.AssemblyReference.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.AssemblyInfoInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.AssemblyInfo.cs
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.csproj.CopyComplete
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Interface\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.pdb

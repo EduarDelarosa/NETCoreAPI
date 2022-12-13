@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto.Ecomerce.Application.DTO\Proyecto.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Domain.Entity\Proyecto.Ecommerce.Domain.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

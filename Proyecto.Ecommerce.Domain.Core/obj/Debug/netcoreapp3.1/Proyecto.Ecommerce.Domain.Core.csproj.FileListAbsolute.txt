@@ -1,0 +1,17 @@
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.deps.json
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Entity.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Infraestructura.Interface.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Entity.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Interface.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Infraestructura.Interface.pdb
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.csproj.AssemblyReference.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.AssemblyInfo.cs
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.csproj.CopyComplete
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.dll
+C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecommerce.Domain.Core\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Domain.Core.pdb

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto.Ecomerce.Application.DTO\Proyecto.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Application.Interface\Proyecto.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Application.Main\Proyecto.Ecommerce.Application.Main.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Domain.Core\Proyecto.Ecommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Domain.Entity\Proyecto.Ecommerce.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Domain.Interface\Proyecto.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Infraestructura.Data\Proyecto.Ecommerce.Infraestructura.Data.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Infraestructura.Repository\Proyecto.Ecommerce.Infraestructura.Repository.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Infraestrutura.Interface\Proyecto.Ecommerce.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Transversal.Common\Proyecto.Ecommerce.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Transversal.Mapper\Proyecto.Ecommerce.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+
+</Project>

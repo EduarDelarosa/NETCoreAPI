@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Proyecto.Ecommerce.Infraestructura.Data\Proyecto.Ecommerce.Infraestructura.Data.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Infraestrutura.Interface\Proyecto.Ecommerce.Infraestructura.Interface.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Transversal.Common\Proyecto.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
