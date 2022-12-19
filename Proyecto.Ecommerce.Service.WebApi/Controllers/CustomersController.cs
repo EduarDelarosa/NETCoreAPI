@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : Controller
     {
@@ -16,96 +16,96 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             _customerApplication = customerApplication;
         }
 
-        #region Metodos Sincronos
-        [HttpPost]
-        public IActionResult Insert([FromBody]CustomersDTO customersDTO)
-        {
-            if (customersDTO == null)
-            {
-                return BadRequest();
-            }
+        //#region Metodos Sincronos
+        //[HttpPost]
+        //public IActionResult Insert([FromBody]CustomersDTO customersDTO)
+        //{
+        //    if (customersDTO == null)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            var response = _customerApplication.Insert(customersDTO);
-            if(response.IsSuccess)
-            {
-                return Ok(response);
-            }else
-            {
-                return BadRequest(response.Message);
-            }
-        }
+        //    var response = _customerApplication.Insert(customersDTO);
+        //    if(response.IsSuccess)
+        //    {
+        //        return Ok(response);
+        //    }else
+        //    {
+        //        return BadRequest(response.Message);
+        //    }
+        //}
 
-        [HttpPut]
-        public IActionResult Update([FromBody] CustomersDTO customersDTO)
-        {
-            if (customersDTO == null)
-            {
-                return BadRequest();
-            }
+        //[HttpPut]
+        //public IActionResult Update([FromBody] CustomersDTO customersDTO)
+        //{
+        //    if (customersDTO == null)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            var response = _customerApplication.Update(customersDTO);
-            if (response.IsSuccess)
-            {
-                return Ok(response);
-            }
-            else
-            {
-                return BadRequest(response.Message);
-            }
-        }
+        //    var response = _customerApplication.Update(customersDTO);
+        //    if (response.IsSuccess)
+        //    {
+        //        return Ok(response);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(response.Message);
+        //    }
+        //}
 
-        [HttpDelete("{customerId}")]
-        public IActionResult Delete(string customerId)
-        {
-            if (string.IsNullOrEmpty(customerId))
-            {
-                return BadRequest();
-            }
+        //[HttpDelete("{customerId}")]
+        //public IActionResult Delete(string customerId)
+        //{
+        //    if (string.IsNullOrEmpty(customerId))
+        //    {
+        //        return BadRequest();
+        //    }
 
-            var response = _customerApplication.Delete(customerId);
-            if (response.IsSuccess)
-            {
-                return Ok(response);
-            }
-            else
-            {
-                return BadRequest(response.Message);
-            }
-        }
+        //    var response = _customerApplication.Delete(customerId);
+        //    if (response.IsSuccess)
+        //    {
+        //        return Ok(response);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(response.Message);
+        //    }
+        //}
 
-        [HttpGet("{customerId}")]
-        public IActionResult GetById(string customerId)
-        {
-            if (string.IsNullOrEmpty(customerId))
-            {
-                return BadRequest();
-            }
+        //[HttpGet("{customerId}")]
+        //public IActionResult GetById(string customerId)
+        //{
+        //    if (string.IsNullOrEmpty(customerId))
+        //    {
+        //        return BadRequest();
+        //    }
 
-            var response = _customerApplication.GetById(customerId);
-            if (response.IsSuccess)
-            {
-                return Ok(response);
-            }
-            else
-            {
-                return BadRequest(response.Message);
-            }
-        }
+        //    var response = _customerApplication.GetById(customerId);
+        //    if (response.IsSuccess)
+        //    {
+        //        return Ok(response);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(response.Message);
+        //    }
+        //}
 
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            var response = _customerApplication.GetAll();
-            if (response.IsSuccess)
-            {
-                return Ok(response);
-            }
-            else
-            {
-                return BadRequest(response.Message);
-            }
-        }
-        #endregion
+        //[HttpGet]
+        //public IActionResult GetAll()
+        //{
+        //    var response = _customerApplication.GetAll();
+        //    if (response.IsSuccess)
+        //    {
+        //        return Ok(response);
+        //    }
+        //    else
+        //    {
+        //        return BadRequest(response.Message);
+        //    }
+        //}
+        //#endregion
 
         #region Metodos Asincronos
         [HttpPost]

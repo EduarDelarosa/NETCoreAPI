@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj": {}
+    "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj": {
+    "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj",
         "projectName": "Proyecto.Ecommerce.Domain.Core",
-        "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj",
+        "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Core\\obj\\",
+        "outputPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,14 +34,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj"
+              "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj"
               },
-              "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj": {
-                "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj"
+              "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj"
               },
-              "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj": {
-                "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj"
+              "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj": {
+                "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj"
               }
             }
           }
@@ -71,18 +71,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
+    "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj",
         "projectName": "Proyecto.Ecommerce.Domain.Entity",
-        "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj",
+        "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\obj\\",
+        "outputPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -132,18 +132,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj": {
+    "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj",
         "projectName": "Proyecto.Ecommerce.Domain.Interface",
-        "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj",
+        "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Interface\\Proyecto.Ecommerce.Domain.Interface.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Interface\\obj\\",
+        "outputPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -166,8 +166,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj"
+              "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj"
               }
             }
           }
@@ -197,18 +197,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj": {
+    "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj",
+        "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj",
         "projectName": "Proyecto.Ecommerce.Infraestructura.Interface",
-        "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj",
+        "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestrutura.Interface\\Proyecto.Ecommerce.Infraestructura.Interface.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestrutura.Interface\\obj\\",
+        "outputPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestrutura.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -231,8 +231,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj"
+              "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Entity\\Proyecto.Ecommerce.Domain.Entity.csproj"
               }
             }
           }
@@ -262,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

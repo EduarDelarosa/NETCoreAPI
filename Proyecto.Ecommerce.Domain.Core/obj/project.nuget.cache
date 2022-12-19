@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eh14lK5v976u02nowaXoR1Bxi4qbyE7Rvw5iYwlWvheMCiuSheNZTbkPvwV+Y7xuFs+Ink0CfW9iJfw1AmSWJw==",
+  "dgSpecHash": "6awMR4zsIdP0E8HtwjXNwPy4SXcOyqhcc5FoJ5xr2eZXls6Ayo9ibHhBXqUUisi6JQv0bwyyzQKMGjLXqZcjsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj",
+  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Domain.Core\\Proyecto.Ecommerce.Domain.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

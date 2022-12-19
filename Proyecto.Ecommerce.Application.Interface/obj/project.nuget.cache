@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1jVJEt2JQ/qTCpI4KYcpkVkie/YJylahjzRkVkdrN6GHWbPXUa0/AHIRJbgypBkYQE5m20OFozCKxGR7guHknA==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Application.Interface\\Proyecto.Ecommerce.Application.Interface.csproj",
+  "dgSpecHash": "7CFxfEpPqxzAyYNpirCB05kzgVVK3X+VrxaZ3NcnrX34zSojQCTLyHBkf9enNYNcvNvFcR/Png9FpKWPAeQjxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Application.Interface\\Proyecto.Ecommerce.Application.Interface.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Proyecto.Ecommerce.Application.Interface -> Proyecto.Ecommerce.Application.Main -> Proyecto.Ecommerce.Application.Interface.",
-      "libraryId": "Proyecto.Ecommerce.Application.Interface",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

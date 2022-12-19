@@ -8,3 +8,13 @@ C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecomerce.Application.DT
 C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.csproj.CoreCompileInputs.cache
 C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.dll
 C:\Users\Eduard\source\repos\Proyecto.Ecommerce\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.pdb
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.deps.json
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.dll
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.pdb
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.csproj.AssemblyReference.cache
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.AssemblyInfoInputs.cache
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.AssemblyInfo.cs
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.dll
+C:\Users\Eduard\Source\Repos\NETCoreAPI\Proyecto.Ecomerce.Application.DTO\obj\Debug\netcoreapp3.1\Proyecto.Ecommerce.Application.DTO.pdb

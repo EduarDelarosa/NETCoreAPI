@@ -10,6 +10,7 @@ namespace Proyecto.Ecommerce.Transversal.Mapper
         public MappingProfile()
         {
             CreateMap<Customers, CustomersDTO>().ReverseMap();
+            CreateMap<Users, UsersDTO>().ReverseMap();
 
             // Para realizar un mapeo campo a campo usamos esta sintaxis
             //CreateMap<Customers, CustomersDTO>().ReverseMap().ForMember(d => d.CustomerId, source => source.MapFrom(src => src.CustomerId));

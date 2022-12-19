@@ -222,43 +222,14 @@
           }
         }
       },
-      "Proyecto.Ecommerce.Application.DTO/1.0.0": {
+      "Proyecto.Ecommerce.Transversal.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Proyecto.Ecommerce.Application.DTO.dll": {}
+          "bin/placeholder/Proyecto.Ecommerce.Transversal.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Proyecto.Ecommerce.Application.DTO.dll": {}
-        }
-      },
-      "Proyecto.Ecommerce.Application.Interface/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Proyecto.Ecommerce.Application.DTO": "1.0.0",
-          "Proyecto.Ecommerce.Application.Main": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Proyecto.Ecommerce.Application.Interface.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Proyecto.Ecommerce.Application.Interface.dll": {}
-        }
-      },
-      "Proyecto.Ecommerce.Application.Main/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Proyecto.Ecommerce.Application.DTO": "1.0.0",
-          "Proyecto.Ecommerce.Application.Interface": "1.0.0",
-          "Proyecto.Ecommerce.Application.Main": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Proyecto.Ecommerce.Application.Main.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Proyecto.Ecommerce.Application.Main.dll": {}
+          "bin/placeholder/Proyecto.Ecommerce.Transversal.Common.dll": {}
         }
       }
     }
@@ -663,17 +634,7 @@
         "version.txt"
       ]
     },
-    "Proyecto.Ecommerce.Application.DTO/1.0.0": {
-      "type": "project",
-      "path": "../Proyecto.Ecomerce.Application.DTO/Proyecto.Ecommerce.Application.DTO.csproj",
-      "msbuildProject": "../Proyecto.Ecomerce.Application.DTO/Proyecto.Ecommerce.Application.DTO.csproj"
-    },
-    "Proyecto.Ecommerce.Application.Interface/1.0.0": {
-      "type": "project",
-      "path": "../Proyecto.Ecommerce.Application.Interface/Proyecto.Ecommerce.Application.Interface.csproj",
-      "msbuildProject": "../Proyecto.Ecommerce.Application.Interface/Proyecto.Ecommerce.Application.Interface.csproj"
-    },
-    "Proyecto.Ecommerce.Application.Main/1.0.0": {
+    "Proyecto.Ecommerce.Transversal.Common/1.0.0": {
       "type": "project",
       "path": "../Proyecto.Ecommerce.Transversal.Common/Proyecto.Ecommerce.Transversal.Common.csproj",
       "msbuildProject": "../Proyecto.Ecommerce.Transversal.Common/Proyecto.Ecommerce.Transversal.Common.csproj"
@@ -682,7 +643,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.Extensions.Configuration >= 3.1.31",
-      "Proyecto.Ecommerce.Application.Main >= 1.0.0",
+      "Proyecto.Ecommerce.Transversal.Common >= 1.0.0",
       "System.Data.SqlClient >= 4.6.0"
     ]
   },
@@ -694,11 +655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestructura.Data\\Proyecto.Ecommerce.Infraestructura.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestructura.Data\\Proyecto.Ecommerce.Infraestructura.Data.csproj",
       "projectName": "Proyecto.Ecommerce.Infraestructura.Data",
-      "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestructura.Data\\Proyecto.Ecommerce.Infraestructura.Data.csproj",
+      "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestructura.Data\\Proyecto.Ecommerce.Infraestructura.Data.csproj",
       "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestructura.Data\\obj\\",
+      "outputPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestructura.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -721,8 +682,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj": {
-              "projectPath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj"
+            "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj": {
+              "projectPath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj"
             }
           }
         }
@@ -762,19 +723,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  Proyecto.Ecommerce.Infraestructura.Data -> Proyecto.Ecommerce.Application.Main -> Proyecto.Ecommerce.Application.Main.",
-      "libraryId": "Proyecto.Ecommerce.Application.Main",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

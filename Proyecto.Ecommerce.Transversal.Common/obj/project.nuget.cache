@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MdNbIvOvZhTZKt2BAfBWwFLMb6M1mgrW5r59aT1o4EaiytJScut8B5ZoXnHoWzYwjL6/4qoinYTdtGBHsZaa6w==",
+  "dgSpecHash": "Ocp7V2I5Zq5lOseD1NEhh1ZdPovOMR7XsJhZhcUoaFON7gFIOeeimm44dBql2svKVs3JfVc6cuDiVObjiBirDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj",
+  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

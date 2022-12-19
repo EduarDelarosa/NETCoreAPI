@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4UPL1XAMqPl7uG6mRhE5LimxVt2Z37qfjkca7DGGj63nQvY/mLhew5alCICY12iUanUMhJ7rZJOQLSRbOHyyag==",
+  "dgSpecHash": "Q22oB/yiDXZEqJq4OMbalUX/y16s00A9y445/uLy20eg/ENt0Jv8H9R+aQX4zePIAYRfETgO5ag37K5I4xiVrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\Proyecto.Ecommerce\\Proyecto.Ecommerce.Infraestructura.Repository\\Proyecto.Ecommerce.Infraestructura.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Infraestructura.Repository\\Proyecto.Ecommerce.Infraestructura.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduard\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\Eduard\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
