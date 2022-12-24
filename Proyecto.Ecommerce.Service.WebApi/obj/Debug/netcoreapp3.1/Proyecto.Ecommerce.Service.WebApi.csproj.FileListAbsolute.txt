@@ -137,3 +137,16 @@ C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\De
 C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Logging.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Service.WebApi\bin\Debug\netcoreapp3.1\Proyecto.Ecommerce.Transversal.Logging.pdb

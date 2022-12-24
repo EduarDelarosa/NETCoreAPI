@@ -25,6 +25,16 @@ using System.Reflection;
 using System.IO;
 using Microsoft.OpenApi.Models;
 using Proyecto.Ecommerce.Service.WebApi.Helpers;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Swashbuckle.Application;
+using Proyecto.Ecommerce.Transversal.Logging;
+using Proyecto.Ecommerce.Service.WebApi.Modules.Swagger;
+using Proyecto.Ecommerce.Service.WebApi.Modules.Authentication;
+using Proyecto.Ecommerce.Service.WebApi.Modules.Mapper;
+using Proyecto.Ecommerce.Service.WebApi.Modules.Feature;
+using Proyecto.Ecommerce.Service.WebApi.Modules.Injection;
 
 namespace Proyecto.Ecommerce.Service.WebApi
 {
@@ -41,61 +51,12 @@ namespace Proyecto.Ecommerce.Service.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAutoMapper(x => x.AddProfile(new MappingProfile()));
-            services.AddCors(options => options.AddPolicy(myPolicy, b => b.WithOrigins(Configuration["Config:OriginCors"])
-                                                                        .AllowAnyHeader()
-                                                                        .AllowAnyMethod()));
+            services.AddMapper();
+            services.AddFeature(this.Configuration);
             services.AddControllers();
-
-            var appSettingsSection = Configuration.GetSection("Config");
-            services.Configure<AppSettings>(appSettingsSection);
-
-            services.AddSingleton(Configuration);
-            //Usamos addSingleton porq solo instanciamos una sola vez la conexion a la bd
-            services.AddSingleton<IConnectionFactory, ConnectionFactory>();
-            //usamos addScoped porq necesitamos que se instancie una vez por solicitud
-            services.AddScoped<ICustomerApplication, CustomersApplication>();
-            services.AddScoped<ICustomersDomain, CustomersDomain>();
-            services.AddScoped<ICustomersRepository, CustomersRepository>();
-
-            services.AddScoped<IUsersApplication, UsersApplication>();
-            services.AddScoped<IUsersDomain, UsersDomain>();
-            services.AddScoped<IUsersRepository, UsersRepository>();
-
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Version = "v1",
-                    Title = "Proyecto Ecommerce",
-                    Description = "Proyecto web API",
-                    TermsOfService = new Uri("https://proyecto.com/terms"),
-                    Contact = new Microsoft.OpenApi.Models.OpenApiContact
-                    {
-                        Name = "Eduardo De la rosa",
-                        Email = "eduardelarosa09@gmail.com",
-                        Url = new Uri("https://proyecto.com/contact"),
-                    },
-                    License = new Microsoft.OpenApi.Models.OpenApiLicense
-                    {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://proyecto.com/licence"),
-                    }
-                });
-
-                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-            });
-
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Proyecto Ecommerce", Version = "v1", });
-            //    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-            //    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-            //    c.IncludeXmlComments(xmlPath);
-
-            //});
-
+            services.AddInjection(this.Configuration);
+            services.AddAuthentication(this.Configuration);
+            services.AddSwagger();
         }
 
 

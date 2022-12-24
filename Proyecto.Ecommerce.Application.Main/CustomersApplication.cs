@@ -14,10 +14,12 @@ namespace Proyecto.Ecommerce.Application.Main
     {
         private readonly ICustomersDomain _customersDomain;
         private readonly IMapper _mapper;
-        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper)
+        private readonly IAppLogger<CustomersApplication> _logger;
+        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper, IAppLogger<CustomersApplication> logger)
         {
             _customersDomain = customersDomain;
             _mapper = mapper;
+            _logger = logger;
         }
 
         #region Metodos Sincronos
@@ -214,11 +216,13 @@ namespace Proyecto.Ecommerce.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa";
+                    _logger.LogInformation("Consulta Exitosa!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
+                _logger.LogError(e.Message);
             }
 
             return response;

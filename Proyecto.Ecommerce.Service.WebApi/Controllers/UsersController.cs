@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper.Configuration;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Proyecto.Ecommerce.Application.DTO;
 using Proyecto.Ecommerce.Application.Interface;
@@ -10,24 +12,26 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : Controller
     {
         private readonly IUsersApplication _usersApplication;
-        private readonly AppSettings _appSettings;
+        //private readonly AppSettings _appSettings;
+        private readonly Microsoft.Extensions.Configuration.IConfiguration _config;
 
-        public UsersController(IUsersApplication usersApplication, AppSettings appSettings)
+        public UsersController(IUsersApplication usersApplication, Microsoft.Extensions.Configuration.IConfiguration config)
         {
             _usersApplication = usersApplication;
-            _appSettings = appSettings;
+            _config = config;
         }
 
-        //[AllowAnonymous]
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult Authenticate([FromBody]UsersDTO authDto)
         {
@@ -36,7 +40,7 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             {
                 if (response.Data != null)
                 {
-                    response.Data.Token = buildToken(response);
+                    response.Data.Token = BuildToken(response);
                     return Ok(response);
                 }
                 return NotFound(response.Message);
@@ -45,10 +49,10 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        private string buildToken(Response<UsersDTO> usersDto)
+        private string BuildToken(Response<UsersDTO> usersDto)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+            var key = Encoding.ASCII.GetBytes(_config["Config:Secret"]);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[]
@@ -57,8 +61,8 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
-                Issuer = _appSettings.Issuer,
-                Audience = _appSettings.Audience,
+                Issuer = _config["Config:Issuer"],
+                Audience = _config["Config:Audience"],
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenString = tokenHandler.WriteToken(token);
