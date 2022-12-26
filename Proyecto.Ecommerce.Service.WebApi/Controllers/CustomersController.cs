@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : Controller

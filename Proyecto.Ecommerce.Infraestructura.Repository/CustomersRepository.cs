@@ -25,7 +25,7 @@ namespace Proyecto.Ecommerce.Infraestructura.Repository
             {
                 var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomersID", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerId);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle",customers.ContactTitle);
@@ -49,7 +49,7 @@ namespace Proyecto.Ecommerce.Infraestructura.Repository
             {
                 var query = "CustomersUpdate";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomersID", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerId);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);
@@ -118,7 +118,7 @@ namespace Proyecto.Ecommerce.Infraestructura.Repository
             {
                 var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomersID", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerId);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);
@@ -142,7 +142,7 @@ namespace Proyecto.Ecommerce.Infraestructura.Repository
             {
                 var query = "CustomersUpdate";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomersID", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerId);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);

@@ -59,7 +59,7 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
                 {
                     new Claim(ClaimTypes.Name, usersDto.Data.UserId.ToString()),
                 }),
-                Expires = DateTime.UtcNow.AddMinutes(1),
+                Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
                 Issuer = _config["Config:Issuer"],
                 Audience = _config["Config:Audience"],
