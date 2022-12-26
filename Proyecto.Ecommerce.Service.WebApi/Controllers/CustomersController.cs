@@ -7,12 +7,19 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Controllers
 {
-    //[Authorize]
+    /// <summary>
+    /// 
+    /// </summary>
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : Controller
     {
         private readonly ICustomerApplication _customerApplication;
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="customerApplication"></param>
         public CustomersController(ICustomerApplication customerApplication)
         {
             _customerApplication = customerApplication;
@@ -110,6 +117,11 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
         //#endregion
 
         #region Metodos Asincronos
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="customersDTO"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> InsertAsync([FromBody] CustomersDTO customersDTO)
         {
@@ -129,6 +141,11 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="customersDTO"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> UpdateAsync([FromBody] CustomersDTO customersDTO)
         {
@@ -148,6 +165,11 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
         [HttpDelete("{customerId}")]
         public async Task<IActionResult> DeleteAsync(string customerId)
         {
@@ -167,6 +189,11 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
         [HttpGet("{customerId}")]
         public async Task<IActionResult> GetByIdAync(string customerId)
         {
@@ -186,6 +213,10 @@ namespace Proyecto.Ecommerce.Service.WebApi.Controllers
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> GetAsyncAll()
         {

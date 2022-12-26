@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9YeAWLHh5kn2MhUS1g/gBPMyF3MxR0279F/6O/fAQVZCe6jO2TKI1Mi0eidqQXV0V+TUqfQNtZtbLMThnkZIvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Application.Validator\\Proyecto.Ecommerce.Application.Validator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduard\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\Eduard\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.4.0\\fluentvalidation.dependencyinjectionextensions.11.4.0.nupkg.sha512",
+    "C:\\Users\\Eduard\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

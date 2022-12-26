@@ -45,6 +45,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -117,7 +123,7 @@
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[3.1.9, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

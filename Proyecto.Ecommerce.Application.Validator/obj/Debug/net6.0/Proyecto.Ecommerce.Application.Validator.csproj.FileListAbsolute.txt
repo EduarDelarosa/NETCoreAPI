@@ -1,0 +1,15 @@
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\bin\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.deps.json
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\bin\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\bin\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.pdb
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\bin\Debug\net6.0\Proyecto.Ecommerce.Application.DTO.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\bin\Debug\net6.0\Proyecto.Ecommerce.Application.DTO.pdb
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.csproj.AssemblyReference.cache
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.AssemblyInfoInputs.cache
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.AssemblyInfo.cs
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.csproj.CoreCompileInputs.cache
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.csproj.CopyComplete
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\refint\Proyecto.Ecommerce.Application.Validator.dll
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\Proyecto.Ecommerce.Application.Validator.pdb
+C:\Users\Eduard\source\repos\NETCoreAPI\Proyecto.Ecommerce.Application.Validator\obj\Debug\net6.0\ref\Proyecto.Ecommerce.Application.Validator.dll

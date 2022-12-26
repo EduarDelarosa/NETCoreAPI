@@ -16,20 +16,35 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+    
     public class UsersController : Controller
     {
         private readonly IUsersApplication _usersApplication;
         //private readonly AppSettings _appSettings;
         private readonly Microsoft.Extensions.Configuration.IConfiguration _config;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="usersApplication"></param>
+        /// <param name="config"></param>
         public UsersController(IUsersApplication usersApplication, Microsoft.Extensions.Configuration.IConfiguration config)
         {
             _usersApplication = usersApplication;
             _config = config;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="authDto"></param>
+        /// <returns></returns>
 
         [AllowAnonymous]
         [HttpPost]

@@ -9,8 +9,17 @@ using System.Threading.Tasks;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Modules.Authentication
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class AuthenticationExtensiones
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static IServiceCollection AddAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
             var appSettingsSection = configuration.GetSection("Config");

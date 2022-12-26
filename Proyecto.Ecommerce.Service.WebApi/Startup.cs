@@ -35,6 +35,7 @@ using Proyecto.Ecommerce.Service.WebApi.Modules.Authentication;
 using Proyecto.Ecommerce.Service.WebApi.Modules.Mapper;
 using Proyecto.Ecommerce.Service.WebApi.Modules.Feature;
 using Proyecto.Ecommerce.Service.WebApi.Modules.Injection;
+using Proyecto.Ecommerce.Service.WebApi.Modules.Validator;
 
 namespace Proyecto.Ecommerce.Service.WebApi
 {
@@ -57,6 +58,7 @@ namespace Proyecto.Ecommerce.Service.WebApi
             services.AddInjection(this.Configuration);
             services.AddAuthentication(this.Configuration);
             services.AddSwagger();
+            services.AddValidator();
         }
 
 

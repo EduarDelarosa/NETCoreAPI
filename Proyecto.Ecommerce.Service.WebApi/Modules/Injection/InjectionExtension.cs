@@ -12,8 +12,17 @@ using Proyecto.Ecommerce.Transversal.Logging;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Modules.Injection
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class InjectionExtension
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static IServiceCollection AddInjection(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddSingleton(configuration);

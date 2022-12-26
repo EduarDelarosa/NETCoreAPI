@@ -3,9 +3,17 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Proyecto.Ecommerce.Service.WebApi.Modules.Feature
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class FeatureExtensiones
     {
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
         public static IServiceCollection AddFeature(this IServiceCollection services, IConfiguration configuration)
         {
             string myPolicy = "policyApiEcommerce";

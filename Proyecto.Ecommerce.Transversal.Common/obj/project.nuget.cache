@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ocp7V2I5Zq5lOseD1NEhh1ZdPovOMR7XsJhZhcUoaFON7gFIOeeimm44dBql2svKVs3JfVc6cuDiVObjiBirDw==",
+  "dgSpecHash": "GX6H3j6VSWkYvzl+QP8nMmhu9sx0Vj6u6zpSiwjDBFP6AoyJGEI55G5zpqBGyvx9l3mLcRkdKvDChzsrbW0vDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Eduard\\source\\repos\\NETCoreAPI\\Proyecto.Ecommerce.Transversal.Common\\Proyecto.Ecommerce.Transversal.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduard\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

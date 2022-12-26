@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Proyecto.Ecommerce.Application.DTO;
 using Proyecto.Ecommerce.Application.Interface;
+using Proyecto.Ecommerce.Application.Validator;
 using Proyecto.Ecommerce.Domain.Interface;
 using Proyecto.Ecommerce.Transversal.Common;
 using System;
@@ -13,19 +14,23 @@ namespace Proyecto.Ecommerce.Application.Main
     {
         private readonly IUsersDomain _usersDomain;
         private readonly IMapper _mapper;
+        private readonly UsersDtoValidator _usersDtoValidator;
 
-        public UsersApplication(IUsersDomain usersDomain, IMapper mapper)
+        public UsersApplication(IUsersDomain usersDomain, IMapper mapper, UsersDtoValidator usersDtoValidator)
         {
             _usersDomain = usersDomain;
             _mapper = mapper;
+            _usersDtoValidator = usersDtoValidator;
         }
 
         public Response<UsersDTO> Authenticate(string username, string password)
         {
             var response = new Response<UsersDTO>();
-            if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            var validation = _usersDtoValidator.Validate(new UsersDTO() { UserName = username, Password = password});
+            if(!validation.IsValid)
             {
                 response.Message = "No se admiten valores vacios";
+                response.Errors = validation.Errors;
                 return response;
             }
 

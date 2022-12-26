@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Proyecto.Ecomerce.Application.DTO\Proyecto.Ecommerce.Application.DTO.csproj" />
     <ProjectReference Include="..\Proyecto.Ecommerce.Application.Interface\Proyecto.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\Proyecto.Ecommerce.Application.Validator\Proyecto.Ecommerce.Application.Validator.csproj" />
     <ProjectReference Include="..\Proyecto.Ecommerce.Domain.Entity\Proyecto.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Proyecto.Ecommerce.Domain.Interface\Proyecto.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\Proyecto.Ecommerce.Transversal.Common\Proyecto.Ecommerce.Transversal.Common.csproj" />
